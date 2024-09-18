@@ -1,7 +1,11 @@
 [package]
-name = "aimlapi-rs"
+name = "aimlapi"
 version = "0.0.1"
 edition = "2021"
+description = "An unofficial Rust library for the AI/ML API"
+repository = "https://github.com/trajection/aimlapi-rs"
+readme = "README.md"
+license-file = "LICENSE"
 
 [dependencies]
 serde = { version = "1.0", features = ["derive"] }
